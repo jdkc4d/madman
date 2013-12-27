@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MAD Work Queue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAD Work Queue.Designer.cs">
+      <DependentUpon>MAD Work Queue.cs</DependentUpon>
+    </Compile>
     <Compile Include="MAD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MAD Work Queue.resx">
+      <DependentUpon>MAD Work Queue.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MAD.resx">
       <DependentUpon>MAD.cs</DependentUpon>
     </EmbeddedResource>
