@@ -50,6 +50,12 @@
     <Compile Include="MAD.Designer.cs">
       <DependentUpon>MAD.cs</DependentUpon>
     </Compile>
+    <Compile Include="MadConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MadConfig.Designer.cs">
+      <DependentUpon>MadConfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="MADMan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MAD.resx">
       <DependentUpon>MAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MadConfig.resx">
+      <DependentUpon>MadConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MADMan.resx">
       <DependentUpon>MADMan.cs</DependentUpon>
